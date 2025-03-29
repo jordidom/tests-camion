@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tests de Autoescuela</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Tests de Autoescuela</h1>
+    <div id="test-selector">
+        <label for="test">Selecciona un test:</label>
+        <select id="test">
+            <!-- Opciones generadas dinámicamente -->
+        </select>
+        <button onclick="startTest()">Comenzar</button>
+    </div>
+    <div id="quiz-container" style="display:none;">
+        <h2 id="question-text"></h2>
+        <div id="options"></div>
+        <div id="navigation">
+            <button onclick="prevQuestion()">Anterior</button>
+            <div id="question-buttons"></div>
+            <button onclick="nextQuestion()">Siguiente</button>
+        </div>
+        <div id="result" style="display:none;">
+            <h2>Resultado</h2>
+            <p id="score"></p>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

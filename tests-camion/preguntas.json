@@ -1,0 +1,36 @@
+[
+    [
+        {
+            "question": "¿Cuál es la velocidad máxima en una autopista?",
+            "options": ["120 km/h", "100 km/h", "90 km/h", "130 km/h"],
+            "correct": 0
+        },
+        {
+            "question": "¿Qué indica una línea continua en la carretera?",
+            "options": ["Prohibido adelantar", "Señal de precaución", "Zona de descanso", "Paso de peatones"],
+            "correct": 0
+        },
+        {
+            "question": "¿Cuándo es obligatorio el uso del cinturón de seguridad?",
+            "options": ["Solo en autopistas", "Solo en ciudad", "Siempre", "Solo en carretera secundaria"],
+            "correct": 2
+        }
+    ],
+    [
+        {
+            "question": "¿Qué hacer en caso de niebla densa?",
+            "options": ["Acelerar", "Usar luces antiniebla", "Apagar las luces", "Seguir de cerca al coche adelante"],
+            "correct": 1
+        },
+        {
+            "question": "¿Qué indica una señal de STOP?",
+            "options": ["Ceder el paso", "Detenerse completamente", "Velocidad reducida", "Cruce peligroso"],
+            "correct": 1
+        },
+        {
+            "question": "¿Qué significa una luz amarilla intermitente en un semáforo?",
+            "options": ["Detenerse", "Precaución", "Seguir sin detenerse", "Cambio de sentido obligatorio"],
+            "correct": 1
+        }
+    ]
+]  
