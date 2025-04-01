@@ -32,10 +32,12 @@ function loadQuestion() {
     document.getElementById('question-text').textContent = questionData.question;
     let optionsContainer = document.getElementById('options');
     optionsContainer.innerHTML = '';
+    
     questionData.options.forEach((option, index) => {
         let button = document.createElement('button');
         button.textContent = option;
         button.onclick = () => checkAnswer(index, button);
+        
         if (answers[currentQuestionIndex] !== undefined) {
             button.disabled = true;
             if (answers[currentQuestionIndex] === index) {
@@ -45,8 +47,10 @@ function loadQuestion() {
                 button.classList.add('correct');
             }
         }
+        
         optionsContainer.appendChild(button);
     });
+
     updateNavigationButtons();
 }
 
@@ -57,18 +61,18 @@ function checkAnswer(selectedIndex, selectedButton) {
     let correctIndex = currentTest[currentQuestionIndex].correct;
     let buttons = document.querySelectorAll('#options button');
     let questionButtons = document.querySelectorAll('#question-buttons button');
-    
-    // Disable all options after an answer is selected
+
+    // Deshabilita los botones de respuesta después de seleccionar
     buttons.forEach(button => button.disabled = true);
 
     if (selectedIndex === correctIndex) {
-        selectedButton.classList.add('correct');
-        questionButtons[currentQuestionIndex].classList.add('correct-number');
+        selectedButton.classList.add('correct'); // Poner en verde si es correcta
+        questionButtons[currentQuestionIndex].classList.add('correct-number'); // Botón de número en verde
         score++;
     } else {
-        selectedButton.classList.add('incorrect');
-        buttons[correctIndex].classList.add('correct');
-        questionButtons[currentQuestionIndex].classList.add('incorrect-number');
+        selectedButton.classList.add('incorrect'); // Poner en rojo si es incorrecta
+        buttons[correctIndex].classList.add('correct'); // Resaltar la correcta en verde
+        questionButtons[currentQuestionIndex].classList.add('incorrect-number'); // Botón de número en rojo
     }
 }
 
@@ -91,6 +95,7 @@ function prevQuestion() {
 function updateNavigationButtons() {
     let navContainer = document.getElementById('question-buttons');
     navContainer.innerHTML = '';
+    
     for (let i = 0; i < currentTest.length; i++) {
         let btn = document.createElement('button');
         btn.textContent = i + 1;
@@ -98,9 +103,12 @@ function updateNavigationButtons() {
             currentQuestionIndex = i;
             loadQuestion();
         };
+
+        // Si ya se respondió, coloréalo según correcta o incorrecta
         if (answers[i] !== undefined) {
             btn.classList.add(answers[i] === currentTest[i].correct ? 'correct-number' : 'incorrect-number');
         }
+
         navContainer.appendChild(btn);
     }
 }

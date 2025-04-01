@@ -1,19 +1,104 @@
 [
     [
         {
-            "question": "¿Cuál es la velocidad máxima en una autopista?",
-            "options": ["120 km/h", "100 km/h", "90 km/h", "130 km/h"],
+            "question": "Si el manómetro marca poca presión, ¿cómo estará el aceite?",
+            "options": ["Muy caliente.", "Frío.", "Templado."],
             "correct": 0
         },
         {
-            "question": "¿Qué indica una línea continua en la carretera?",
-            "options": ["Prohibido adelantar", "Señal de precaución", "Zona de descanso", "Paso de peatones"],
-            "correct": 0
+            "question": "Como norma general, ¿puede ud. circular por un carril adicional circunstancial, conduciendo un camión de 7.500 kg. de M.M.A?",
+            "options": ["No, porque solo podrán circular los turismos y las motocicletas.", "Sí.", "Sí, pero sólo por el arcén de la derecha."],
+            "correct": 1
         },
         {
-            "question": "¿Cuándo es obligatorio el uso del cinturón de seguridad?",
-            "options": ["Solo en autopistas", "Solo en ciudad", "Siempre", "Solo en carretera secundaria"],
+            "question": "Si conduce un vehículo destinado al transporte de mercancías que tiene una M.M.A. superior a 3.500 kg., no deberá circular si su tasa de alcoholemia es superior a...",
+            "options": ["0,25 miligramos de alcohol por litro de aire.", "0,15 miligramos de alcohol por litro de aire.", "0,40 miligramos de alcohol por litro de aire."],
+            "correct": 1
+        },
+        {
+            "question": "Conduce un camión. A la vista de la señal, ¿qué relación de marchas deberá seleccionar?",
+            "options": ["Marchas largas.", "Marchas cortas.", "Es indiferente."],
+            "correct": 1
+        },
+        {
+            "question": "¿Cuándo debe cambiar las escobillas del limpiaparabrisas del camión?",
+            "options": ["Cada seis meses.", "Solamente cuando se produzca la rotura del soporte de las gomas.", "Cuando observe que el barrido que realiza es irregular."],
             "correct": 2
+        },
+        {
+            "question": "¿Le está permitido estacionar en doble fila el camión que conduce para efectuar operaciones de carga y descarga?",
+            "options": ["Sí, excepto en autovías y autopistas.", "No, en ningún caso.", "Sí, pero solamente en vías dentro de poblado."],
+            "correct": 1
+        },
+        {
+            "question": "El permiso de la clase C, entre otros vehículos, le autoriza a conducir...",
+            "options": ["camiones y autobuses de M.M.A. superior a 3.500 kg sin remolque.", "camiones de M.M.A .superior a 3.500 kg con un remolque ligero.", "camiones de M.M.A. superior a 3.500 kg con un remolque no ligero enganchado."],
+            "correct": 1
+        },
+        {
+            "question": "¿Cuándo se debe medir la presión de los neumáticos?",
+            "options": ["Cuando estén calientes.", "Cuando estén fríos.", "Solamente cuando estén desinflados."],
+            "correct": 1
+        },
+        {
+            "question": "Si está obligado por las normas sobre tiempos de conducción y descanso, ¿durante cuánto tiempo, como máximo, está autorizado para conducir ininterrumpidamente?",
+            "options": ["Cuatro horas.", "Dos horas.", "Cuatro horas y media."],
+            "correct": 2
+        },
+        {
+            "question": "A efectos de la legislación de tráfico, un camión es...",
+            "options": ["un vehículo automóvil de cuatro rueda o más, concebido y construido para transportar mercancías y cuya cabina no está integrada en el resto de la carrocería.", "un automóvil cuya masa máxima autorizada es siempre superior a 3.5 toneladas.", "un vehículo pesado, cualquiera que sea su peso."],
+            "correct": 0
+        },
+        {
+            "question": "El camión que conduce tiene 7 metros de longitud. ¿Puede circular transportando vigas de hormigón?",
+            "options": ["No, si sobresalen por la parte posterior más de un tercio de la longitud del vehículo.", "Sí, siempre que, entre otros requisitos, la longitud total incluida la carga no supere los 12 metros.", "Sí, siempre que no sobresalga más de tres metros por delante y dos por detrás."],
+            "correct": 1
+        },
+        {
+            "question": "Cuando la anchura del camión es superior a 2,10 metros, ¿cómo se denominan las luces que así lo indican?",
+            "options": ["Luces de posición.", "Luces de gálibo.", "Luces de estacionamiento."],
+            "correct": 1
+        },
+        {
+            "question": "El camión que conduce dispone de tres ejes. Si el eje motor está equipado con neumáticos dobles y suspensión neumática, ¿qué masa máxima autorizada no podrá sobrepasar para que le esté permitido circular?",
+            "options": ["32 toneladas.", "26 toneladas, como norma general.", "25 toneladas."],
+            "correct": 1
+        },
+        {
+            "question": "Si está obligado a cumplir con los tiempos de conducción y descanso, debe saber que un período de descanso semanal que incida en dos semanas...",
+            "options": ["podrá computarse en la primera y en la segunda semana.", "deberá computarse siempre en la segunda semana.", "podrá computarse en cualquiera de ellas, pero no en ambas."],
+            "correct": 2
+        },
+        {
+            "question": "Si conduce un camión, debe saber que...",
+            "options": ["está obligado a llevar en la cabina un chaleco reflectante de alta visibilidad.", "es obligatorio llevar en la cabina un chaleco reflectante y otro de repuesto.", "es aconsejable llevar un chaleco reflectante, aunque no es obligatorio."],
+            "correct": 0
+        },
+        {
+            "question": "Si transporta mercancías con un furgón cuya M.M.A es de 4 toneladas, ¿puede circular por una vía a cuya entrada se encuentra esta señal?",
+            "options": ["Sí, porque prohíbe la entrada a camiones, no a furgones.", "Sí, porque sólo prohíbe la entrada a vehículos cuya M.M.A sea inferior a 3,5 toneladas.", "No."],
+            "correct": 2
+        },
+        {
+            "question": "Para estacionar correctamente un camión de 6.000 kg MAM en una pendiente ascendente del 8%, ¿qué hay que hacer además de dejar el freno de mano puesto?",
+            "options": ["Dejar engranada la marcha atrás y calzar el vehículo adecuadamente.", "Calzar el vehículo con piedras y dejar engranada la primera marcha.", "Dejar la primera marcha engranada y calzar el vehículo adecuadamente."],
+            "correct": 2
+        },
+        {
+            "question": "Al arrancar en frío, el motor de un vehículo pesado, ¿por qué es aconsejable esperar entre 30 y 60 segundos antes de iniciar la marcha?",
+            "options": ["Para que alcancen la presión suficiente los calderines neumáticos de freno.", "Porque si se inicia la marcha inmediatamente y se pasa de las 2.500 rpm, el motor se ahoga.", "Para conseguir que la refrigeración del aceite se realice más deprisa."],
+            "correct": 0
+        },
+        {
+            "question": "¿Cada cuánto tiempo deberá pasar su camión de 8.000 kilogramos de M.M.A., la inspección técnica periódica?",
+            "options": ["Una vez cada seis meses, si tiene más de diez años.", "Una vez al año, si tiene más de diez.", "Una vez cada dos años si tiene menos de cinco."],
+            "correct": 0
+        },
+        {
+            "question": "Durante la maniobra de adelantamiento a ciclistas, ¿cuándo es obligatorio ocupar la totalidad del carril contiguo, cambiando completamente de carril?",
+            "options": ["Siempre.", "Cuando la calzada cuente con más de un carril por sentido.", "Cuando la calzada cuente con un carril por sentido de circulación."],
+            "correct": 1
         }
     ],
     [

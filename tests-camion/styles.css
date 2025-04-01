@@ -1,34 +1,44 @@
+/* Estilos generales */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
+    background-color: #f8f9fa;
     text-align: center;
     margin: 0;
     padding: 0;
 }
 
+/* Contenedor principal */
 .container {
-    max-width: 800px;
+    max-width: 900px;
     margin: 50px auto;
     background: white;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
+/* Encabezado */
 h1 {
-    color: #333;
-}
-
-#test-selector {
+    color: #ff6600;
+    font-size: 28px;
+    font-weight: bold;
     margin-bottom: 20px;
 }
 
+/* Selector de test */
+#test-selector {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #e3f2fd;
+    border-radius: 8px;
+}
+
 select, button {
-    padding: 10px;
+    padding: 12px;
     margin: 10px;
-    font-size: 16px;
+    font-size: 18px;
     border-radius: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid #007bff;
 }
 
 button {
@@ -36,44 +46,61 @@ button {
     background: #007bff;
     color: white;
     border: none;
+    transition: 0.3s;
 }
 
 button:hover {
     background: #0056b3;
 }
 
+/* Cuestionario */
 #quiz-container {
     margin-top: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
 }
 
+#question-text {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Opciones de respuesta */
 #options button {
     display: block;
+    width: 90%;
     margin: 10px auto;
-    padding: 12px;
-    width: 80%;
+    padding: 14px;
     border: 2px solid transparent;
     background: white;
-    cursor: pointer;
-    font-size: 16px;
+    font-size: 18px;
     border-radius: 5px;
-    transition: all 0.3s;
+    transition: all 0.3s ease;
     color: black;
+    cursor: pointer;
 }
 
 #options button:hover {
     background: #e6e6e6;
 }
 
+/* Colores de respuestas correctas e incorrectas */
 .correct {
-    background-color: lightgreen;
-    border-color: green;
+    background-color: #28a745 !important;
+    border-color: #218838 !important;
+    color: white !important;
 }
 
 .incorrect {
-    background-color: lightcoral;
-    border-color: red;
+    background-color: #dc3545 !important;
+    border-color: #c82333 !important;
+    color: white !important;
 }
 
+/* Navegación de preguntas */
 #navigation {
     margin-top: 20px;
     display: flex;
@@ -83,29 +110,55 @@ button:hover {
 
 #question-buttons button {
     margin: 5px;
-    padding: 8px 12px;
+    padding: 10px 15px;
     border-radius: 5px;
     border: none;
-    background: #ddd;
+    background: #6c757d;
+    color: white;
+    font-size: 16px;
     cursor: pointer;
+    transition: 0.3s;
 }
 
+#question-buttons button:hover {
+    background: #5a6268;
+}
+
+/* Colores en la numeración de preguntas según resultado */
 .correct-number {
-    background-color: lightgreen !important;
+    background-color: #28a745 !important;
 }
 
 .incorrect-number {
-    background-color: lightcoral !important;
+    background-color: #dc3545 !important;
 }
 
+/* Resultado final */
 #result {
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
     background: #fff3cd;
     padding: 15px;
-    border-radius: 5px;
+    border-radius: 8px;
     display: inline-block;
     color: #856404;
     border: 1px solid #ffeeba;
+}
+
+/* Diseño responsivo para móviles */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    #options button {
+        width: 100%;
+    }
+
+    #question-buttons button {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
 }
